@@ -1,7 +1,7 @@
 function countLetters(string) {
   var charTotal = {};
   // Removing spaces from string
-  let newString = string.split('').join('');
+  let newString = string.split(' ').join('');
   for (let char of newString) {
     if (char in charTotal) {
       // Adding the repeating occurence of letters
